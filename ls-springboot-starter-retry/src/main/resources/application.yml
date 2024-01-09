@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://lishi-internal.mysql.rds.aliyuncs.com:3306/ygj-base-dev?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowMultiQueries=true&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    username: ygj_base_dev
+    password: P7UhL476Newotrk2
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+retry:
+  auto-db:
+    enable: true
+  auto-compensate:
+    enable: true
+    autoTimeUnit: minutes
